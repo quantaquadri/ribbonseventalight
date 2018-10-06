@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*
-Template Name: Highdmin - Responsive Bootstrap 4 Admin Dashboard
-Author: CoderThemes
-Email: coderthemes@gmail.com
-File: Icons
-*/
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -13,8 +8,12 @@ File: Icons
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont3e6e.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont3e6e.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont3e6e.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont3e6e.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810601/etool/css/fontawesome-webfont3e6e.eot?v=4.7.0");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810639/etool/css/fontawesome-webfontd41d.eot?#iefix&v=4.7.0") format("embedded-opentype"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810595/etool/css/fontawesome-webfont3e6e.woff2?v=4.7.0") format("woff2"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810595/etool/css/fontawesome-webfont3e6e.woff?v=4.7.0") format("woff"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810599/etool/css/fontawesome-webfont3e6e.ttf?v=4.7.0") format("truetype"), 
+  url("https://drive.google.com/open?id=1qBp9iaMsv2B0jWmoZ8EKgRvIJURc7tAF?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3056,8 +3055,12 @@ File: Icons
 /* MaterialDesignIcons.com */
 @font-face {
   font-family: "Material Design Icons";
-  src: url("../fonts/materialdesignicons-webfontdf71.eot?v=2.0.46");
-  src: url("../fonts/materialdesignicons-webfontd41d.eot?#iefix&v=2.0.46") format("embedded-opentype"), url("../fonts/materialdesignicons-webfontdf71.woff2?v=2.0.46") format("woff2"), url("../fonts/materialdesignicons-webfontdf71.woff?v=2.0.46") format("woff"), url("../fonts/materialdesignicons-webfontdf71.ttf?v=2.0.46") format("truetype"), url("../fonts/materialdesignicons-webfontdf71.svg?v=2.0.46#materialdesigniconsregular") format("svg");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810807/etool/css/materialdesignicons-webfontdf71.eot?v=2.0.46");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810639/etool/css/fontawesome-webfontd41d.eot?#iefix&v=2.0.46") format("embedded-opentype"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810805/etool/css/materialdesignicons-webfontdf71.woff2?v=2.0.46") format("woff2"),
+   url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810806/etool/css/materialdesignicons-webfontdf71.woff?v=2.0.46") format("woff"), 
+   url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538810808/etool/css/materialdesignicons-webfontdf71.ttf?v=2.0.46") format("truetype"), 
+   url("https://drive.google.com/open?id=1xdn_0IcgRI1beb3jpmp-4HazwMDvBS3K?v=2.0.46#materialdesigniconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11512,8 +11515,11 @@ File: Icons
 
 @font-face {
   font-family: "feather";
-  src: url("../fonts/feather-webfont.eot");
-  src: url("../fonts/feather-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/feather-webfont.woff") format("woff"), url("../fonts/feather-webfont.ttf") format("truetype"), url("../fonts/feather-webfont.svg#feather") format("svg");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811010/etool/css/feather-webfont.eot");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811011/etool/css/feather-webfontd41d.eot?#iefix") format("embedded-opentype"),
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811011/etool/css/feather-webfont.woff") format("woff"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811011/etool/css/feather-webfont.ttf") format("truetype"),
+  url("https://drive.google.com/open?id=1OvNYZbecAb_KCFnnFHg8NNvAPVXRSz29#feather") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12076,8 +12082,11 @@ File: Icons
 
 @font-face {
   font-family: "dripicons-v2";
-  src: url("../fonts/dripicons-v2.eot");
-  src: url("../fonts/dripicons-v2d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/dripicons-v2.woff") format("woff"), url("../fonts/dripicons-v2.ttf") format("truetype"), url("../fonts/dripicons-v2.svg#dripicons-v2") format("svg");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811108/etool/css/dripicons-v2.eot");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811108/etool/css/dripicons-v2d41d.eot?#iefix") format("embedded-opentype"), 
+  url("https://drive.google.com/open?id=1es3u2lm14XkJ0vdpI7bj682GK8N6bLwR") format("woff"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811115/etool/css/dripicons-v2.ttf") format("truetype"), 
+  url("https://drive.google.com/open?id=1uQCqVeUSUPiVaBiEYB6msu919YTuq8GM#dripicons-v2") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12908,8 +12917,12 @@ File: Icons
 
 @font-face {
   font-family: "simple-line-icons";
-  src: url("../fonts/Simple-Line-Icons4c82.eot?-i3a2kk");
-  src: url("../fonts/Simple-Line-Iconsd41d.eot?#iefix-i3a2kk") format("embedded-opentype"), url("../fonts/Simple-Line-Icons4c82.ttf?-i3a2kk") format("truetype"), url("../fonts/Simple-Line-Icons4c82.woff2?-i3a2kk") format("woff2"), url("../fonts/Simple-Line-Icons4c82.woff?-i3a2kk") format("woff"), url("../fonts/Simple-Line-Icons4c82.svg?-i3a2kk#simple-line-icons") format("svg");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811317/etool/css/Simple-Line-Icons4c82.eot?-i3a2kk");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811318/etool/css/Simple-Line-Iconsd41d.eot?#iefix-i3a2kk") format("embedded-opentype"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811318/etool/css/Simple-Line-Icons4c82.ttf?-i3a2kk") format("truetype"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811317/etool/css/Simple-Line-Icons4c82.woff2?-i3a2kk") format("woff2"), 
+  url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811319/etool/css/Simple-Line-Icons4c82.woff?-i3a2kk") format("woff"), 
+  url("https://drive.google.com/open?id=1an69EWJF5j2khEEWAUaoXOThhHAUNdXU?-i3a2kk#simple-line-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
