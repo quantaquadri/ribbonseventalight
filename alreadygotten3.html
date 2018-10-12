@@ -55,32 +55,9 @@
        
         <link href="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811498/etool/css/icons.css" rel="stylesheet" type="text/css" />
        
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-
-        <!--calendar css-->
-        <link href="assets/css/fullcalendar.min.css" rel="stylesheet" />
+        <link href="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538811517/etool/css/style.css" rel="stylesheet" type="text/css" />
 
         <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809609/etool/js/modernizr.min.js"></script>
-
-         <!-- This code enables the row table data to be clickable -->
-        <script type="text/javascript">
-            function ChangeColor(tableRow, highLight)
-            {
-            if (highLight)
-            {
-            tableRow.style.backgroundColor = '#C5C6B6';
-            }
-            else
-            {
-            tableRow.style.backgroundColor = 'white';
-            }
-        }
-        
-        function DoNav(theUrl)
-        {
-        document.location.href = theUrl;
-        }
-        </script>
 
     </head>
 
@@ -130,7 +107,7 @@
                                 </a>    
                                 <!-- End mobile menu toggle-->
                             </li>
-                
+
                         </ul>
 
                     </div>
@@ -143,7 +120,6 @@
             </div>
             <!-- end topbar-main -->
 
-
         </header>
         <!-- End Navigation Bar-->
 
@@ -151,89 +127,113 @@
         <div class="wrapper">
            
             <div class="container-fluid">
-
-                    <div class="row">
-                            <div class="col-lg-4">
-        
-                                <div class="card-box">
-                                    <h4 class="header-title m-t-0">Onboard A New Couple</h4><br>
-        
-                                    <form action="#">
-                                        <div class="form-group">
-                                            <label for="userName">Couple's Name<span class="text-danger">*</span></label>
-                                            <input type="text" name="nick" parsley-trigger="change" required="" placeholder="Enter couples name" class="form-control" id="userName">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="emailAddress">Wedding Budget<span class="text-danger">*</span></label>
-                                            <input type="email" name="email" parsley-trigger="change" required="" placeholder="Enter budget" class="form-control" id="emailAddress">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="pass1">Wedding date<span class="text-danger">*</span></label>
-                                            <input id="pass1" type="password" placeholder="weddung date" required="" class="form-control">
-                                        </div>
-        
-                                        <div class="form-group  m-b-0">
-                                            <button class="btn btn-custom waves-effect waves-light" type="submit">
-                                                Save
-                                            </button>
-                                            <button type="reset" class="btn btn-light waves-effect m-l-5">
-                                                Cancel
-                                            </button>
-                                        </div>
-        
-                                    </form>
-                                </div> <!-- end card-box -->
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-8" style="text-align: center; ">
-                        
-                                <div class="card-box">
-
-                                    <h4 class="header-title m-t-0">Your Couples List</h4>
-                                    <p>You can click on any of the rows to view more about the couple</p><br>
-        
-                                    <div class="table-responsive table-bordered" data-pattern="priority-columns">
-        
-                                        <table class="table">
-                                                
-                                            <thead>
-                                                
-                                                <tr class="table-danger">
-                                                    <th>Couple's Name</th>
-                                                    <th>Wedding Date</th>
-                                                    <th>Wedding Budget</th>
-                                                    <th>Checklist Status</th>
-                                                </tr>
-        
-                                            </thead>
-                                            
-                                            <tbody>
-        
-                                                <tr onmouseover="ChangeColor(this, true);" onmouseout="ChangeColor(this, false);" onclick="DoNav('coupledetails.html');">    
-                                                    <td>Efe & Biodun</td>
-                                                    <td>15/07/2019</td>
-                                                    <td>#500,000</td>
-                                                    <td> <span class="badge badge-danger">25% Done</span> </td>
-                                                </tr>
-        
-                                                
-                                            
-                                            </tbody>
-        
-                                        </table>
-        
-                                    </div> <!-- end table div -->
-                                
-                                </div>
-        
-                            </div>
-        
-                            
-                    </div>
                 
+                <!-- Page-Title -->
+                <div class="row">
+           
+                    <div class="col-sm-12">
+           
+                        <div class="page-title-box">
+                            <h4 class="page-title" style="text-align: center;">One More Button Away</h4>
+                        </div>
+           
+                    </div>
+           
+                </div>
+                <!-- end page title end breadcrumb -->
+
+                <br>
+                
+                <div class="row">
+
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-8"  style="text-align: center; ">
+                        
+                        <div class="card-box">
+
+                            <h2 style="color: #f9508c;"> Step 2:</h2>
+                    
+                            <h6 style="color: #777; font-size: 14px; font-weight: 200;">What Have You Already Gotten? 
+                                <br><br>You Can Skip This Step If You Haven't Gotten Any Vendors Yet
+                            </h6>
+
+                            <br>
+
+                            <div class="table-responsive">
+
+                                <table class="table table-bordered table-fit">
+                                    
+                                    <thead>
+                                    
+                                        <tr>
+                                    
+                                            <th>Select</th>
+                                    
+                                            <th>Vendor</th>
+                                    
+                                            <th>Amount(&#8358;)</th>
+                                    
+                                        </tr>
+                                    
+                                    </thead>
+
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <th scope="row"><input type="checkbox" name="" value=""></th>
+                                            <td>Photographer</td>
+                                            <td><input type="text" name="" value=""></td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <th scope="row"><input type="checkbox" name="" value=""></th>
+                                            <td>Photographer</td>
+                                            <td><input type="text" name="" value=""></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row"><input type="checkbox" name="" value=""></th>
+                                            <td>Photographer</td>
+                                            <td><input type="text" name="" value=""></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row"><input type="checkbox" name="" value=""></th>
+                                            <td>Photographer</td>
+                                            <td><input type="text" name="" value=""></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row"><input type="checkbox" name="" value=""></th>
+                                            <td>Photographer</td>
+                                            <td><input type="text" name="" value=""></td>
+                                        </tr>   
+                                    
+                                    </tbody>
+
+                                </table>                       
+
+                        </div>
+
+                        <a style="margin-right: 10px;" class="btn btn-lg btn-outline-pink waves-effect waves-light" href="budgetresults2.html">
+                                Skip
+                        </a>
+
+                        <a class="btn btn-lg btn-custom waves-effect waves-light" href="budgetresults3.html">
+                                Next
+                        </a>
+                        
+                    
+                    </div>
+
+                    <div class="col-md-2"></div>
+
+                    
+                </div><!-- end row -->
 
             </div> <!-- end container -->
+
         </div>
         <!-- end wrapper -->
 
@@ -251,15 +251,11 @@
         <!-- End Footer -->
 
 
-        <!-- jQuery  -->
-        <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/jquery.min.js"></script>
-        <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/popper.min.js"></script>
-        <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/bootstrap.min.js"></script>
-        <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/jquery.slimscroll.js"></script>
-
-
-        <script src='assets/js/fullcalendar.min.js'></script>
-        <script src="assets/js/jquery.calendar.js"></script>
+         <!-- jQuery  -->
+         <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/jquery.min.js"></script>
+         <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/popper.min.js"></script>
+         <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/bootstrap.min.js"></script>
+         <script src="https://res.cloudinary.com/dxuap8kxy/raw/upload/v1538809610/etool/js/jquery.slimscroll.js"></script>
 
     </body>
 
